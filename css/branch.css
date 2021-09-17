@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.banner-img img{
+    width: 100%;
+}
+.banner-img h3{
+    position: absolute;
+    color: white;
+    margin-top: 10%;
+    margin-left: 5rem;
+    font-size: 2rem;
+    font-weight: 900
+}
+.floating-container{
+    margin-top: -10%;
+    width: 80%;
+    height: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #cacaca
+}
+.map{
+padding: 1rem;
+}
+.branch{
+    font-size: 2rem;
+}
+.half h1{
+    font-size: 1.625rem;
+    font-weight: 800;
+}
+.half input{
+    width: 90%;
+    margin-left: 1.5rem;
+    border-radius: 7px;
+    border:1px solid rgb(141, 140, 140);
+}
+.office_details{
+    overflow-y: scroll;
+}
+.office_details h2{
+    font-size: 1.4rem;
+}
+
+.more_info{
+    background-color: white;
+    height: auto;
+    align-content: center;
+
+}
+.more_info h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+

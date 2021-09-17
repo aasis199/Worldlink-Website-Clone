@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.banner{
+    width: 100%;
+}
+
+.floating-container{
+    margin-top: -10%;
+    width: 80%;
+    height: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #cacaca;
+}
+.half{
+    background-color: #5685f3;
+    width: 40%;
+}
+.half h1{
+    font-size: 1.625rem;
+    font-weight: 700;
+    color: white;
+    margin-left: 2rem;
+}
+.title{
+    font-size: 1.625rem;
+    font-weight: 700;
+    color:  #5685f3;
+}
+.form{
+    justify-content: space-around;
+    margin-left: 2rem;
+    color: whitesmoke;
+}
+.form input{
+    margin-top: 1rem;
+    width: 40%;
+    padding: 5px;
+    opacity: 0.5;
+}
+.form textarea{
+    opacity: 0.5;
+
+    margin-top: 1rem;
+    width: 80%;
+    padding-left: 5px;
+    height: 200px;
+}
+#second{
+    display:none;
+}
+/* 
+.contact_details{
+    overflow-y: scroll;
+} */
+.contact_details h2{
+    color: white;
+    font-size: 1.4rem;
+}
+.contact_details ul li a{
+    color: white;
+    font-weight: 500;
+}
+.more_info{
+    background-color: white;
+    height: auto;
+    align-content: center;
+
+}
+.more_info h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+

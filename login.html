@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <title>HTML Forms</title>
+      <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" type="text/css" href="css/form1.css">
+</head>
+<body>
+    
+        <form action="database/validate.php" method="post" id="login">
+
+        <h2>WELCOME<br><span>Login to your account</span></h2>
+        
+        
+        <input placeholder="E-mail" type="text" name="email" id="email" required><br><br>
+
+
+        <input type="password" name="pass" placeholder="Password" required><br>
+        <a class="link" href="reset.html">Forget Password?</a><br><br>
+
+        <a href="#"><input type="submit" value="LOGIN" class="btn_primary"></a><br><br>
+
+        <input type="submit" value="SIGNUP" class="btn_secondary" onclick="newPage()">
+
+    
+        </form>
+        
+        <form action="" method="post" id="signup">
+            <h2>SIGN-UP</h2>
+            
+            <input placeholder="Name" type="text" name="name" id="name" required><br><br>
+            
+            <input placeholder="Phone" type="text" name="phone" id="phone" required><br><br>
+            
+            <input placeholder="E-mail" type="text" name="email" id="email" required><br><br>
+    
+            <input type="radio" name="gender" checked-value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="others"> Others<br><br>
+    
+            <input type="password" name="pass" placeholder="Password"><br><br>
+    
+    
+            <input type="" value="SIGNUP" class="btn_secondary">
+                </form>
+        </div>
+        <script>
+            function newPage(){
+                document.getElementById("signup").style.display="block";
+                document.getElementById("login").style.display="none";
+            }
+        </script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,900;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.bold{
+    font-weight: 700;
+}
+.color-primary{
+    color: #2F69EF ;
+}
+a{
+    text-decoration: none;
+}
+body{
+        background-color: rgb(232, 233, 236);
+}
+.brand img{
+    width: 100%;
+}
+.ico{
+    position: absolute;
+    top: 0;
+    left: 3rem;
+    width: 6rem;
+}
+.ico img{
+    width: 100%;
+}
+
+.navbar{
+    position:relative;
+    margin-left: 10vw;
+    background-color:transparent !important;
+}
+
+.nav-link{
+    color: #2F69EF !important;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+.right_links{
+    margin-right: 6vw;
+    color: #2F69EF !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900 !important;
+    text-decoration: none;
+    font-weight: 900;
+}
+.second-drop{
+    position: absolute;
+    width: 100%;
+    background-image: linear-gradient(135deg, #3474ac, #785697);
+    margin-top: -3rem;
+}
+.second-drop ul li a{
+    color: white;
+}
+
+
+.menu i{
+    font-size: 2rem;
+    margin-top: -1.325rem;
+    position: absolute;
+    color:#2F69EF ;
+    border-width: 1px solid #2F69EF ;
+}
+#services, #vas, #organization, #nettv, #bnp, #help {
+    position: absolute;
+    display: none;
+    margin-left: 7vw;
+    font-size: 1.1rem;
+}
+.drop{
+    margin-top: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+.right{
+    font-size: 1rem;
+    display: flex; 
+    margin-left: 65%;
+}
+#s{
+    transition:all 0.2s ease-out;
+    width:1px;
+    border-radius:0;
+    box-shadow:none;
+    outline: none;
+    padding:0;
+    margin:0;
+    border:0;
+    background-color: transparent;
+    color: rgb(117, 116, 117);
+
+  }
+  #s:focus{
+    width:8em;
+    opacity:1;
+  }
+  label{
+    text-shadow:0 0 0.1em rgba(60,60,60,0.3);
+    position: relative;
+  }
+.carousel-item{
+    max-height: 450px;
+}
+.custom-container {  
+    position: absolute;
+    margin-top: -5%;
+    width: 55%;
+    background-image: linear-gradient(165deg, #2d88d8, #8c6bac);
+    border: none;
+    display: flex;
+    flex-direction: row;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .item {
+    z-index: 10000;
+    width: 25%;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    border-left: 1px solid white;
+  }
+
+.image{
+    width: 17%;
+}
+
+.wrapper{
+    margin-top: 5rem;
+    position: relative;
+}
+.title{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-family: 'Lato',sans-serif;
+    font-weight: 600;
+    color: #2F69EF;
+}
+.title_sec{
+    font-size:1rem;
+    font-weight: 600;
+}
+.ul{
+    display: flex;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+.ul li{
+    width: 30%;
+    padding:1rem;
+}
+.ul li a{
+    float: left;
+    width: 100%;
+    padding:2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2F69EF ;
+    text-decoration: none;
+}
+.info img{
+    padding:2rem ;
+    height: 400px;
+    width: 100%;
+}
+.sub, .content {
+    color: #2F69EF ;
+}
+.wlink-btn{
+    letter-spacing: 1px;
+    border-radius:4%;
+    background-color: #F5A857;
+    padding:0.625rem 2.5rem;
+    color: white;
+    transition: 0.35s;
+    font-weight: 600;
+}
+.wlink-btn:hover{
+    background-color: rgb(114, 93, 55);
+    color: white;
+}
+.abcd{
+    display: flex;
+}
+.mini-banner{
+    width: 100%;
+}
+.foot{
+    font-weight: 700;;
+}
+.efgh{
+    background-image: linear-gradient(135deg, #5a94c7, #6f4f8d);
+}
+
+.footer{ 
+    position: relative;
+
+}
+.copy{
+    color: white;
+    padding: 3rem 0;
+}
+.social{
+    position: absolute;
+    color: white;
+    top: 30%;
+    right: 0;
+}
+.icon{
+    background-color:  #2F69EF;
+    padding: 1rem;
+    border-radius: 50%;
+    color:  white;
+}
+.social i{
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+
